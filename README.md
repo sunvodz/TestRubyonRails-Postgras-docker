@@ -1,25 +1,38 @@
 # README
+# TestRubyonRails-Postgras-docker
+Install Ruby and Rails
+New project in terminal
+$ rails new TestRubyonRails-Postgras-docker
+$ cd TestRubyonRails-Postgras-docker
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Edit file TestRubyonRails-Postgras-docker/config/database.yml
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: postgres
+  pool: 5
+  username: postgres
+  password: secret
+  host: localhost
+  
+  
+Edit file TestRubyonRails-Postgras-docker/Gemfile
+  gem 'pg'                 The line7
+  
+run project
+$ rails s
 
-Things you may want to cover:
+http://localhost:3000/
+  
+run docker in terminal
+$ docker-compose -f postgres.yaml up -d
 
-* Ruby version
+create database 
+http://localhost:8080/
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# TestRubyonRails-Postgras-docker-
+ email: admin@example.com
+ password: admin
+ 
+ create database 
+ name : postgres
+ password: secret
