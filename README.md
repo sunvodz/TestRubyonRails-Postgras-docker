@@ -1,4 +1,5 @@
-# README
+
+https://medium.com/@sunvodz/how-to-rubyonrails-postgras-docker-bc271b51e6a0
 
 # TestRubyonRails-Postgras-docker
 
