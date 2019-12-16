@@ -7,9 +7,9 @@ Install Ruby and Rails
 
 New project in terminal
 
-$ rails new TestRubyonRails-Postgras-docker
+``` $ rails new TestRubyonRails-Postgras-docker ```
 
-$ cd TestRubyonRails-Postgras-docker
+``` $ cd TestRubyonRails-Postgras-docker ```
 
 Edit file TestRubyonRails-Postgras-docker/config/database.yml
 
@@ -36,13 +36,13 @@ Edit file TestRubyonRails-Postgras-docker/Gemfile
   
 run project
 
-$ rails s
+``` $ rails s ```
 
 http://localhost:3000/
   
 run docker in terminal
 
-$ docker-compose -f postgres.yaml up -d
+``` $ docker-compose -f postgres.yaml up -d ```
 
 create database 
 
